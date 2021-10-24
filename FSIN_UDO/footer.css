@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+    justify-content: center;
+    background-color: #EEF2F7;
+}
+.content_footer {
+    display: flex;
+    max-width: 1216px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+    align-items: center;
+}
+.text_footer {
+    color: #3D4B66;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}

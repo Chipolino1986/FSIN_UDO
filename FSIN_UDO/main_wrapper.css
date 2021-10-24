@@ -1,0 +1,28 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.main_wrapper {
+    display: block;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 5120px;
+    height: 100%;
+    border: 1px solid #DDDFE0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}

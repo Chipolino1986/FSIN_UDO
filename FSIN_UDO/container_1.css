@@ -1,0 +1,116 @@
+.container_I {
+    display: flex;
+    width: 100%;
+    min-height: 620px;
+    height: auto;
+    justify-content: center;
+    background: url(img/background\ img\ cont_1.png) 50% top no-repeat;
+    background-size: cover;
+}
+.content_container_I {
+    display: flex;
+    max-width: 1216px;
+    width: 100%;
+    height: auto;
+}
+.text_box_container_I {
+    display: flex;
+    max-width: 570px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.text_box_container_I h1 {
+    max-width: 570px;
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #3D4B66;
+    margin: 0 0 20px 0;
+}
+.text_box_container_I p {
+    max-width: 400px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #3D4B66;
+    margin: 20px 0 20px 0;
+}
+.text_box_container_I a {
+    display: flex;
+    width: 142px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    background-color: #1939DE;
+    color: white;
+    border-radius: 3px;
+    transition: .3s;
+}
+.text_box_container_I a:hover {
+    background-color: #195EE6;
+}
+
+
+                    /*769px*/
+
+
+@media screen and (max-width:770px) {
+    .container_I {
+        background: url(img/back\ на\ мобилу\ УДО.png) 80% no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:770px) {
+    .text_box_container_I  {
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:770px) {
+    .text_box_container_I h1 {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:770px) {
+    .text_box_container_I p {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:770px) {
+    .text_box_container_I a {
+        margin-top: 30px;
+    }
+}
+
+
+                     /*430px*/
+
+
+@media screen and (max-width:470px) {
+    .text_box_container_I h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:470px) {
+    .text_box_container_I p {
+        text-align: center;
+        font-size: 15px;
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width:470px) {
+    .text_box_container_I a {
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width:470px) {
+    .text_box_container_I  {
+        justify-content: flex-start;
+    }
+}
